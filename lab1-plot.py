@@ -1,3 +1,4 @@
+
 from numpy import *
 from numpy.random import *
 from matplotlib.pyplot import *
@@ -6,13 +7,14 @@ plot([1,2,3,2,3,4,3,4,5])
 show()
 #
 # x = linspace(0, 4.*pi, 100)
-# y = sin(x)
-# plot(x, y)
-# show()
+# # y = sin(x)
+# # plot(x, y)
+# # show()
 #
 # x = linspace(-10., 10., 200)
 # x2 = linspace(-10., 10., 200)
 # y = sin(x) * exp(-(x/5.0)**2)
+
 # y2 = cos(x2) * exp(-(x2/2.0)**2)
 # figure(1, figsize = (6,4) )
 # plot(x, y, 'b-', label='theory')
